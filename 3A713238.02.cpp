@@ -1,0 +1,31 @@
+#include <stdio.h> 
+
+#include <stdlib.h> 
+
+
+
+int main() 
+
+{
+
+ int year,month,day;
+
+ printf("請輸入你的出生年(西元)：");
+
+ scanf("%d",&year); 
+
+ printf("請輸入你的出生月：");
+
+ scanf("%d",&month); 
+
+ printf("請輸入你的出生日：");
+
+ scanf("%d",&day); 
+
+ printf("你的出生年月日為：%d,%d,%d\n",year,month,day);
+
+ system("pause");   
+
+ return 0;
+
+}
